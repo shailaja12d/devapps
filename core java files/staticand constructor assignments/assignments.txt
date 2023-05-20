@@ -1,0 +1,75 @@
+1)
+
+
+Take a class
+	declare two variables
+	static
+	instance
+Print two variables
+
+
+
+2)
+
+ take a class 
+	write a static method which does addition of two numbers and print the result in main method.
+
+
+3)
+
+Take a class  create two variables one instance variable and  static variable
+And assign the values
+
+EX: int a =100;
+    Static int x = 1000;
+Create two objects  print the both variable values 
+Create 3rd object and modify the value of two variables(instance , static variables)
+
+Print 3 objects values after modification(instance, static)
+
+
+Constructor--------------
+
+
+1)take a student class and declare 3 instance variables and assign the variables through constructors by creating the objects and print the values.
+
+
+2)take a student class and declare 3 instance variables and assign the variables through constructors by creating 10 objects with 10 different values.
+
+
+3)take a class write a method which takes input as a array with 10 elements and reverse that array and return the same array to the main() print  the  before reverse array  and after reverse array.
+
+
+
+
+public class PensionEligibleClass
+{
+
+static int age = 50;
+
+public static void ageLimit(int eligible)throws EligibleForPenstion
+{
+if(100>=age)
+{
+
+throw new EligibleForPenstion("eligible for pension");
+}
+
+else
+{
+System.outprintln("he is not eligible for pension");
+}
+
+
+public static void main(String args[])throws EligibleForPenstion
+{
+int age =0;
+
+PensionEligibleClass pe = new PensionEligibleClass();
+
+pe.ageLimit();
+}
+}
+
+
+

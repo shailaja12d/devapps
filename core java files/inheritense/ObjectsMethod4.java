@@ -1,0 +1,6 @@
+class ObjectsMethod4
+{
+
+
+
+}

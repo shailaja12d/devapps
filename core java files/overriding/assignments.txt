@@ -1,0 +1,12 @@
+1) write the program to override the final methods and print the output..
+
+
+2)write a program to override public methods in child class change the access specifiers to private.
+
+3).write a program To override private method.
+
+4) to override  with different return type.ex:subclass returning int and child class is returning float.
+
+5)write a program to override a method which is trowing IOException,in the superclass.in the subclass overriden method should throw the exception class.
+
+6)write a program to override abstract method.   ------ Failed

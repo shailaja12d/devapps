@@ -1,0 +1,5 @@
+class ObjectsMethod2
+{
+
+
+}

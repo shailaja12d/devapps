@@ -1,0 +1,72 @@
+import java.io.*;
+
+class  StudentMarksPercentageMainClass
+{
+
+//public static int EnglishMarks =33;
+
+int EnglishMarks ;
+int MathsMarks ;
+int SocialMarks ;
+int ScienceMarks ;
+int TeluguMarks ;
+int HindiMarks ;
+
+
+public static void main(String args[])throws IOException
+{
+
+StudentMarksPercentageHelperClass smp = new StudentMarksPercentageHelperClass();
+
+StudentMarksPercentageMainClass smpmain = new StudentMarksPercentageMainClass();
+
+
+InputStreamReader r = new InputStreamReader(System.in);
+BufferedReader br = new BufferedReader(r);
+
+System.out.println("please enter the Hindi subject marks");
+smpmain.HindiMarks = br.readLine();
+
+System.out.println("please enter the English subject marks");
+smpmain.EnglishMarks = br.readLine();
+
+System.out.println("please enter the Telugu subject marks");
+smpmain.TeluguMarks = br.readLine();
+
+System.out.println("please enter the Maths subject marks");
+smpmain.MathMarks = br.readLine();
+
+System.out.println("please enter the Science subject marks");
+String ScienceMarks = br.readLine();
+
+System.out.println("please enter the social subject marks");
+smpmain.SocialMarks = br.readLine();
+
+
+int sub1 = Integer.parseInt(smpmain.HindiMarks);
+int sub2 = Integer.parseInt(smpmain.EnglishMarks);
+int sub3 = Integer.parseInt(smpmain.TeluguMarks);
+int sub4 = Integer.parseInt(smpmain.MathMarks);
+int sub5 = Integer.parseInt(smpmain.ScienceMarks);
+int sub6 = Integer.parseInt(smpmain.SocialMarks);
+
+
+//int englishmarks =  smpmain.EnglishMarks
+
+ //int totalmarks =smp.totalMarks(smpmain.EnglishMarks,smpmain.MathsMarks,smpmain.SocialMarks,smpmain.ScienceMarks,smpmain.TeluguMarks,smpmain.HindiMarks);
+
+int totalmarks =smp.totalMarks(sub1,sub2,sub3,sub4,sub5,sub6);
+
+
+
+
+ /* System.out.println("please enter the totalmarks");
+String marks = br.readLine();
+int totalmarks = Integer.parseInt(marks);    */
+
+smp.percentageOfMarks(totalmarks);
+
+}
+
+
+}

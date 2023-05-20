@@ -1,0 +1,23 @@
+
+
+class Bank
+{
+
+int accno;
+int Balence;
+String address;
+
+public void chequeBook()
+{
+
+}
+
+
+public void accountRegistration()
+{
+
+
+}
+
+
+}

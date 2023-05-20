@@ -1,0 +1,29 @@
+class MethodOverridingParent
+{
+public void m1()
+{
+
+System.out.println("parent class method");
+}
+
+
+}
+
+class MethodOverridingChild extends class MethodOverridingParent
+{
+
+public void m1()
+{
+
+System.out.println("child class method");
+}
+
+public static void main(String args[])
+{
+
+ MethodOverriding1 mm = new  MethodOverriding1();
+mm.m1();
+
+
+}
+}
